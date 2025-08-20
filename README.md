@@ -7,7 +7,7 @@
 Jogo de lógica **Bagels** com interface gráfica em **Tkinter**.  
 Adivinhe o número secreto sem repetir dígitos, usando dicas visuais, teclado na tela, **modo fácil** e até **animação de confete** quando você vence.  
 
-![screenshot](docs/screenshot.png) <!-- opcional, se quiser adicionar -->
+
 
 ---
 

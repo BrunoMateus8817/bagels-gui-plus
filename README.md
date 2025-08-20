@@ -1,4 +1,8 @@
 # Bagels GUI+ 🎲🎉
+<p align="center">
+  <img src="docs/imagem-bagels_gui_plus.png" alt="Screenshot do Bagels GUI+" width="600">
+</p>
+
 
 Jogo de lógica **Bagels** com interface gráfica em **Tkinter**.  
 Adivinhe o número secreto sem repetir dígitos, usando dicas visuais, teclado na tela, **modo fácil** e até **animação de confete** quando você vence.  

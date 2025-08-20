@@ -1,0 +1,29 @@
+
+---
+
+## 📄 .gitignore
+```gitignore
+# Compilados Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+.venv/
+env/
+venv/
+ENV/
+
+# Arquivos temporários
+*.log
+*.tmp
+*.bak
+
+# Configurações locais
+.vscode/
+.idea/
+
+# Build/distribuição
+build/
+dist/
+*.egg-info/

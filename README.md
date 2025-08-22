@@ -1,65 +1,36 @@
-# Bagels GUI+ 🎲🎉
-<p align="center">
-  <img src="docs/imagem-bagels_gui_plus.png" alt="Screenshot do Bagels GUI+" width="600">
-</p>
+# The Big Book of Small Python Projects 🐍
 
+Este repositório contém minhas soluções para os **81 projetos** do livro  
+[The Big Book of Small Python Projects](https://inventwithpython.com/bigbookpython/)  
+por **Al Sweigart**.
 
-Jogo de lógica **Bagels** com interface gráfica em **Tkinter**.  
-Adivinhe o número secreto sem repetir dígitos, usando dicas visuais, teclado na tela, **modo fácil** e até **animação de confete** quando você vence.  
-
-
+> **Nota:** Estes projetos são para fins de estudo. Todo o crédito pelo conteúdo do livro é do autor.
 
 ---
 
-## 📌 Regras
-- O jogo sorteia um número secreto **sem dígitos repetidos**.
-- Você tem um número limitado de tentativas para acertar.
-- As dicas:
-  - **Certo** → dígito correto na posição correta  
-  - **Quase** → dígito correto na posição errada  
-  - **Nada** → nenhum dígito correto  
+## 📚 Índice de Projetos
 
-Modo fácil: revela algumas posições fixas logo no início.
+| Nº | Projeto | Descrição | Status |
+|-----|---------|-----------|--------|
+| 01  | [Bagels](01_bagels/) | Jogo de lógica de adivinhação numérica. | ✅ Concluído |
+| 02  | [Birthday Paradox](02_birthday_paradox/) | Simulação da probabilidade de aniversários iguais. | 🔄 Em progresso |
+| 03  | ... | ... | ⏳ Pendente |
 
 ---
 
 ## 🚀 Como rodar
-Requisitos: **Python 3.8+** (Tkinter já vem incluído em Windows/macOS; no Linux pode precisar instalar `python3-tk`).
-
-Clone o repositório e execute:
-
 ```bash
-git clone https://github.com/SEU_USUARIO/bagels-gui-plus.git
-cd bagels-gui-plus
-python bagels_gui_plus.py
+git clone https://github.com/SEU_USUARIO/the-big-book-projects.git
+cd the-big-book-projects/01_bagels
+python bagels.py
 
-# Bagels GUI+ 🎲🎉
+🛠️ Tecnologias
 
-Jogo de lógica **Bagels** com interface gráfica em **Tkinter**.  
-Adivinhe o número secreto sem repetir dígitos, usando dicas visuais, teclado na tela, **modo fácil** e até **animação de confete** quando você vence.  
+Python 3.10+
 
-![screenshot](docs/screenshot.png) <!-- opcional, se quiser adicionar -->
+Nenhuma biblioteca externa (salvo quando indicado em requirements.txt)
 
----
+📖 Referência
 
-## 📌 Regras
-- O jogo sorteia um número secreto **sem dígitos repetidos**.
-- Você tem um número limitado de tentativas para acertar.
-- As dicas:
-  - **Certo** → dígito correto na posição correta  
-  - **Quase** → dígito correto na posição errada  
-  - **Nada** → nenhum dígito correto  
-
-Modo fácil: revela algumas posições fixas logo no início.
-
----
-
-## 🚀 Como rodar
-Requisitos: **Python 3.8+** (Tkinter já vem incluído em Windows/macOS; no Linux pode precisar instalar `python3-tk`).
-
-Clone o repositório e execute:
-
-```bash
-git clone https://https://github.com/BrunoMateus8817/bagels-gui-plus
-cd bagels-gui-plus
-python bagels_gui_plus.py
+Livro: The Big Book of Small Python Projects
+Autor: Al Sweigart

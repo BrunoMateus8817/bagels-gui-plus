@@ -34,7 +34,11 @@ Ele utiliza **Tkinter** para animar letras com **gradientes**, **sombras**, **fa
 ## 🖼️ Prévia
 
 ```markdown
-![Prévia do Bitmap Message](./letreiro-ultra.png)
+
+<p align="center">
+  <img src="./letreiro-ultra.png" alt="Prévia do Bitmap Message" width="700">
+</p>
+
 
 
 ## 🚀 Como Usar

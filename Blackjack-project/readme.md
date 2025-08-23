@@ -19,18 +19,18 @@
 ## 📸 Preview
 
 <p align="center">
-  <img src="./Blackjack-project/tela-jogo.png" alt="Tela do jogo" width="800">
+  <img src="./tela-jogo.png" alt="Tela do jogo" width="49%">
+  <img src="./blackjack-imagem.png" alt="Outra tela" width="49%">
 </p>
 
-
-> Se a imagem não aparecer, ajuste o caminho conforme a estrutura do seu repositório.
+> Se as imagens não aparecerem, verifique se os arquivos `tela-jogo.png` e `blackjack-imagem.png` estão na mesma pasta do `README.md`.
 
 ---
 
 ## 🧭 Sumário
 - [Funcionalidades](#-funcionalidades)
 - [Requisitos](#-requisitos)
-- [Como Rodar](#%EF%B8%8F-como-rodar)
+- [Como Rodar](#-como-rodar)
 - [Controles](#-controles)
 - [Estrutura do Projeto](#-estrutura-do-projeto)
 - [Configurações](#-configurações)
@@ -64,35 +64,48 @@
 
 ```bash
 # 1) clone o repositório
-git clone https://github.com/BrunoMateus8817/the-big-book-projects/tree/main/Blackjack-project
+git clone https://github.com/<seu-usuario>/<seu-repo>.git
 cd <seu-repo>
 
 # 2) execute o jogo
-python blackjack.py
+python blackjack_tk.py
 
-Jogando:
+**Jogando:**
 
- Digite o valor da Aposta
+1. Digite o valor da **Aposta**  
+2. Clique em **Dar as Cartas**  
+3. Use **Hit**, **Stand** ou **Double**  
+4. Clique em **Nova Rodada** para continuar
 
- Clique em Dar as Cartas
+---
 
- Use Hit, Stand ou Double
+## ⌨️ Controles
 
- Clique em Nova Rodada para continuar
+| Ação                | Botão / Comando | Observações                                   |
+|---------------------|-----------------|-----------------------------------------------|
+| Comprar carta       | **Hit**         |                                               |
+| Parar               | **Stand**       |                                               |
+| Dobrar a aposta     | **Double**      | Só nas 2 primeiras cartas e com saldo         |
+| Nova mão            | **Nova Rodada** | Após o fim de uma mão                         |
 
-⌨️ Controles
+---
 
-| Ação            | Botão / Comando | Observações                           |
-| --------------- | --------------- | ------------------------------------- |
-| Comprar carta   | **Hit**         |                                       |
-| Parar           | **Stand**       |                                       |
-| Dobrar a aposta | **Double**      | Só nas 2 primeiras cartas e com saldo |
-| Nova mão        | **Nova Rodada** | Após o fim de uma mão                 |
+## 🗂️ Estrutura do Projeto
 
-⚙️ Configurações
+├── blackjack_tk.py # Jogo com interface Tkinter
+├── blackjack.py # Versão em terminal (opcional)
+├── tela-jogo.png # Screenshot 1
+├── blackjack-imagem.png # Screenshot 2
+├── LICENSE
+└── README.md
 
-Dentro do código (blackjack.py), você pode alterar rapidamente:
+---
 
+## ⚙️ Configurações
+
+Dentro do código (`blackjack_tk.py`), você pode alterar rapidamente:
+
+```python
 BANCA_INICIAL = 500        # valor inicial
 MULTIPLOS_BARALHOS = 1     # 1, 4, 6, 8...
 PAGAMENTO_BLACKJACK = 1.5  # 3:2

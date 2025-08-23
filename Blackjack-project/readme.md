@@ -1,79 +1,116 @@
-🃏 Blackjack com Tkinter
+<h1 align="center">🃏 Blackjack com Tkinter</h1>
 
-Um jogo de Blackjack (21) simples desenvolvido em Python com interface gráfica usando Tkinter.
+<p align="center">
+  <em>Um Blackjack (21) simples e elegante em Python + Tkinter</em>
+</p>
 
-Inspirado no livro The Big Book of Small Python Projects de Al Sweigart (Projeto 4 — Blackjack), mas com uma interface moderna, interativa e divertida.
+<p align="center">
+  <a href="https://www.python.org/"><img alt="Python" src="https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=white"></a>
+  <img alt="Licença" src="https://img.shields.io/badge/license-MIT-green">
+  <img alt="Interface" src="https://img.shields.io/badge/GUI-Tkinter-blue">
+</p>
 
-🎮 Funcionalidades
+<p align="center">
+  Inspirado no livro <strong>The Big Book of Small Python Projects</strong> de <em>Al Sweigart</em> (Projeto 4 — Blackjack).
+</p>
 
-Interface gráfica em Tkinter
+---
 
-Banca inicial de $500
+## 📸 Preview
 
-Apostas personalizadas em cada rodada
+<p align="center">
+  <img src="./Blackjack-project/blackjack-imagem.png" alt="Tela do jogo" width="800">
+</p>
 
-Pagamento 3:2 para Blackjack natural
+> Se a imagem não aparecer, ajuste o caminho conforme a estrutura do seu repositório.
 
-Opções de jogo:
+---
 
-Hit (Comprar)
+## 🧭 Sumário
+- [Funcionalidades](#-funcionalidades)
+- [Requisitos](#-requisitos)
+- [Como Rodar](#%EF%B8%8F-como-rodar)
+- [Controles](#-controles)
+- [Estrutura do Projeto](#-estrutura-do-projeto)
+- [Configurações](#-configurações)
+- [Roadmap](#-roadmap)
+- [Licença](#-licença)
 
-Stand (Parar)
+---
 
-Double (Dobrar) (disponível nas duas primeiras cartas, se houver saldo)
+## 🎮 Funcionalidades
 
-Dealer compra até 17 (incluindo soft 17)
+- ✅ Interface gráfica em **Tkinter**
+- 💰 **Banca** inicial de **$500**
+- 🎯 Apostas por rodada
+- 🖤 **Blackjack natural paga 3:2**
+- 🧠 Ás conta como **1 ou 11** automaticamente
+- ✋ Ações: **Hit**, **Stand** e **Double** (nas 2 primeiras cartas e com saldo)
+- 🏦 Dealer compra até **17** (**inclui soft 17**)
+- 🔁 Baralho é reembaralhado quando necessário
+- 🟰 Detecta **bust** e **push** (empate)
 
-Detecção automática de estouro (bust) e empate (push)
+---
 
-Baralho embaralhado automaticamente quando acabar
+## 📦 Requisitos
 
-🖼️ Interface
+- **Python 3.8+** (recomendado 3.10+)
+- Nenhuma dependência externa — o **Tkinter** já vem com a instalação padrão do Python.
 
-Cartas são exibidas com valores e naipes (♠ ♥ ♦ ♣)
+---
 
-Cartas ocultas do dealer até o final da rodada
+## ▶️ Como Rodar
 
-Área separada para dealer e jogador
+```bash
+# 1) clone o repositório
+git clone https://github.com/BrunoMateus8817/the-big-book-projects/tree/main/Blackjack-project
+cd <seu-repo>
 
-Indicadores claros de totais e status da partida
+# 2) execute o jogo
+python blackjack.py
 
-📦 Requisitos
+Jogando:
 
-Python 3.8+ (recomendado 3.10 ou superior)
+ Digite o valor da Aposta
 
-Nenhuma biblioteca externa é necessária. Apenas o Tkinter, que já vem com o Python padrão.
+ Clique em Dar as Cartas
 
-▶️ Como Rodar
+ Use Hit, Stand ou Double
 
-Baixe o arquivo:
-Salve o script como blackjack_tk.py
+ Clique em Nova Rodada para continuar
 
-Execute o jogo:
-python blackjack_tk.py
+⌨️ Controles
 
-Jogue:
+| Ação            | Botão / Comando | Observações                           |
+| --------------- | --------------- | ------------------------------------- |
+| Comprar carta   | **Hit**         |                                       |
+| Parar           | **Stand**       |                                       |
+| Dobrar a aposta | **Double**      | Só nas 2 primeiras cartas e com saldo |
+| Nova mão        | **Nova Rodada** | Após o fim de uma mão                 |
 
-Insira sua aposta no campo Aposta
+⚙️ Configurações
 
-Clique em Dar as Cartas
+Dentro do código (blackjack.py), você pode alterar rapidamente:
 
-Use os botões para decidir suas jogadas (Hit, Stand, Double)
+BANCA_INICIAL = 500        # valor inicial
+MULTIPLOS_BARALHOS = 1     # 1, 4, 6, 8...
+PAGAMENTO_BLACKJACK = 1.5  # 3:2
 
-Clique em Nova Rodada para continuar após o fim da mão
+🗺️ Roadmap
 
-🔮 Possíveis Melhorias
+🔜 Split de pares
 
-Adicionar Split para pares
+🔜 Contagem básica de cartas
 
-Contagem de cartas básica
+🔜 Múltiplos baralhos (4/6/8) com penetração configurável
 
-Múltiplos baralhos (4, 6 ou 8)
+🔜 Sons, animações e temas claros/escuros
 
-Sons e animações
+🔜 Histórico de mãos e estatísticas
 
-Registro de histórico de partidas
+Sugeriu algo legal? Abra uma Issue ou envie um PR! 🎉
 
 📄 Licença
 
-Este projeto é livre para uso pessoal e educacional.
+Este projeto está licenciado sob a MIT License.
+Sinta-se à vontade para usar para fins pessoais e educacionais.

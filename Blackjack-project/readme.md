@@ -19,8 +19,9 @@
 ## 📸 Preview
 
 <p align="center">
-  <img src="./Blackjack-project/blackjack-imagem.png" alt="Tela do jogo" width="800">
+  <img src="./Blackjack-project/tela-jogo.png" alt="Tela do jogo" width="800">
 </p>
+
 
 > Se a imagem não aparecer, ajuste o caminho conforme a estrutura do seu repositório.
 

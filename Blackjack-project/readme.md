@@ -23,8 +23,6 @@
   <img src="./blackjack-imagem.png" alt="Outra tela" width="49%">
 </p>
 
-> Se as imagens não aparecerem, verifique se os arquivos `tela-jogo.png` e `blackjack-imagem.png` estão na mesma pasta do `README.md`.
-
 ---
 
 ## 🧭 Sumário

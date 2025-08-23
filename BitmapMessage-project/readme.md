@@ -31,21 +31,19 @@ Ele utiliza **Tkinter** para animar letras com **gradientes**, **sombras**, **fa
 
 ---
 
-## 🖼️ Prévia
-
-```markdown
-
 <p align="center">
   <img src="./letreiro-ultra.png" alt="Prévia do Bitmap Message" width="700">
 </p>
 
-
+---
 
 ## 🚀 Como Usar
 
 Abra o terminal ou prompt de comando.
 
 Navegue até a pasta do projeto:
+
+```bash
 cd caminho/para/BitmapMessage-project
 
 Execute o script Python:
@@ -58,7 +56,7 @@ Clique em Iniciar Letreiro Ultra Cinematográfico.
 
 Ajuste a velocidade no slider, se desejar.
 
-## ⚙️ Requisitos
+⚙️ Requisitos
 
 Python 3.10 ou superior
 
@@ -66,7 +64,7 @@ Tkinter (já incluso no Python padrão)
 
 Nenhuma biblioteca externa necessária.
 
-## 🧠 Observações
+🧠 Observações
 
 Ótimo projeto para praticar animações com Tkinter.
 
@@ -80,14 +78,12 @@ Pode ser expandido para incluir:
 
 🌟 Modo tela cheia
 
-## 👨‍💻 Autor
+👨‍💻 Autor
 
 Criado com ❤️ em Python e Tkinter.
-Inspirado no livro The Big Book of Small Python Projects de Al Sweigart.
+Inspirado no livro The Big Book of Small Python Projects, de Al Sweigart.
 
-## 📄 Licença
+📄 Licença
 
 Distribuído sob a licença MIT.
 Sinta-se livre para usar, modificar e compartilhar para fins pessoais ou educacionais.
-
-

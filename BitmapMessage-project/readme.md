@@ -1,27 +1,46 @@
-# Bitmap Message
+<h1 align="center">💡 Bitmap Message</h1>
 
-Bitmap Message é um **letreiro animado em Python** inspirado nos clássicos letreiros de Hollywood.  
-O projeto utiliza **Tkinter** para exibir letras animadas com cores gradientes, sombras, fade in/out e efeitos de piscar aleatório, criando uma experiência visual cinematográfica.
+<p align="center">
+  <em>Um letreiro animado em Python com visual cinematográfico</em>
+</p>
 
----
-
-## Funcionalidades
-
-- **Animação contínua de letras** da esquerda para a direita (ou da direita para a esquerda, dependendo da configuração).  
-- **Gradiente de cores** dinâmico, com cores vibrantes que mudam suavemente.  
-- **Fade in e fade out** nas letras e sombras, simulando profundidade.  
-- **Efeito de piscar aleatório**, para dar vida ao letreiro.  
-- **Controle de velocidade** através de um slider.  
-- Interface **simples e intuitiva**, permitindo digitar qualquer mensagem.
+<p align="center">
+  <a href="https://www.python.org/"><img alt="Python" src="https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white"></a>
+  <img alt="Interface" src="https://img.shields.io/badge/GUI-Tkinter-blue">
+  <img alt="Licença" src="https://img.shields.io/badge/license-MIT-green">
+</p>
 
 ---
 
-## Como usar
+## 🎬 Sobre o Projeto
+**Bitmap Message** é um letreiro animado inspirado nos clássicos luminosos de Hollywood.  
+Ele utiliza **Tkinter** para animar letras com **gradientes**, **sombras**, **fade in/out** e **piscar aleatório**, criando um efeito visual moderno e envolvente.
 
-1. Abra o terminal ou prompt de comando.  
-2. Navegue até a pasta do projeto:
+---
 
-```bash
+## ✨ Funcionalidades
+
+| Recurso | Descrição |
+|----------|-----------|
+| 🎨 **Animação de texto** | Letras se movem horizontalmente criando um efeito de letreiro contínuo. |
+| 🌈 **Gradiente dinâmico** | Transição suave de cores vibrantes. |
+| 💡 **Fade in/out** | Aparição e desaparecimento suave das letras. |
+| 🔦 **Efeito de piscar** | Piscar aleatório para dar vida ao letreiro. |
+| ⚡ **Controle de velocidade** | Ajuste em tempo real com um slider intuitivo. |
+| 🖊 **Mensagem customizável** | Digite qualquer frase para exibição imediata. |
+
+---
+
+## 🖼️ Prévia
+> Adicione aqui uma imagem ou GIF para mostrar o funcionamento, por exemplo:
+```markdown
+![Prévia do Bitmap Message](./tela-bitmap.png)
+
+## 🚀 Como Usar
+
+Abra o terminal ou prompt de comando.
+
+Navegue até a pasta do projeto:
 cd caminho/para/BitmapMessage-project
 
 Execute o script Python:
@@ -30,25 +49,40 @@ python bitmap_message.py
 
 Digite sua mensagem no campo de entrada.
 
-Clique em "Iniciar Letreiro Ultra Cinematográfico".
+Clique em Iniciar Letreiro Ultra Cinematográfico.
 
-Ajuste a velocidade usando o slider, se desejar.
+Ajuste a velocidade no slider, se desejar.
 
-Requisitos
+## ⚙️ Requisitos
 
 Python 3.10 ou superior
 
-Tkinter (geralmente já vem instalado com Python)
+Tkinter (já incluso no Python padrão)
 
-Nenhuma biblioteca externa é necessária.
+Nenhuma biblioteca externa necessária.
 
-Observações
+## 🧠 Observações
 
-Este projeto é ideal para praticar animações com Tkinter e criar letreiros personalizados.
+Ótimo projeto para praticar animações com Tkinter.
 
-Pode ser expandido para incluir efeitos adicionais, como reflexos, partículas ou sons sincronizados.
+Pode ser expandido para incluir:
 
-Autor
+✨ Efeitos de partículas
 
-Criado com ❤️ usando Python e Tkinter.
-Inspirado pelo livro The Big Book of Small Python Projects.
+🔊 Sons sincronizados
+
+🔁 Movimento circular
+
+🌟 Modo tela cheia
+
+## 👨‍💻 Autor
+
+Criado com ❤️ em Python e Tkinter.
+Inspirado no livro The Big Book of Small Python Projects de Al Sweigart.
+
+## 📄 Licença
+
+Distribuído sob a licença MIT.
+Sinta-se livre para usar, modificar e compartilhar para fins pessoais ou educacionais.
+
+
